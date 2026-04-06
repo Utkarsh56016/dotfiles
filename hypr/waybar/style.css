@@ -1,0 +1,60 @@
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 12px;
+    border: none;
+}
+
+window#waybar {
+    background: rgba(15, 15, 25, 0.5);
+    border-radius: 12px;
+    margin: 10px 24px;
+    padding: 2px 12px;
+    min-width: 0;
+}
+
+/* Workspaces */
+#workspaces {
+    margin: 0 6px;
+}
+
+#workspaces button {
+    color: #7aa2f7;
+    padding: 0 8px;
+    transition: all 0.3s ease;
+}
+
+#workspaces button.active {
+    color: #bb9af7;
+}
+
+#workspaces button:hover {
+    color: #c0caf5;
+}
+
+/* Center clock */
+#clock {
+    color: #cdd6f4;
+    font-weight: bold;
+}
+
+/* Right modules (EXACT SAME STYLE + extended) */
+#cpu,
+#memory,
+#battery,
+#network,
+#bluetooth,
+#pulseaudio {
+    padding: 0 8px;
+    color: #a6adc8;
+    min-width: 0;
+}
+
+/* Hover effect */
+#cpu:hover,
+#memory:hover,
+#battery:hover,
+#network:hover,
+#bluetooth:hover,
+#pulseaudio:hover {
+    color: #cdd6f4;
+}

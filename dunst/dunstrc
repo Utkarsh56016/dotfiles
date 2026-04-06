@@ -1,0 +1,57 @@
+[global]
+    monitor = 0
+    follow = mouse
+
+    width = 340
+    height = 90
+    origin = top-right
+    offset = 20x40
+
+    transparency = 0
+    corner_radius = 12
+    frame_width = 0
+    separator_height = 0
+    gap_size = 8
+
+    padding = 14
+    horizontal_padding = 14
+
+    font = JetBrainsMono Nerd Font 10
+
+    markup = full
+    format = "<span size='large'>%s</span>\n%b"
+
+    alignment = left
+    vertical_alignment = center
+
+    icon_position = left
+    min_icon_size = 40
+    max_icon_size = 48
+
+    icon_path = /usr/share/icons/Papirus/64x64/apps/
+    default_icon = archlinux-icon
+
+    word_wrap = true
+    stack_duplicates = true
+    show_indicators = false
+
+    mouse_left_click = close_current
+    mouse_right_click = close_all
+
+[urgency_low]
+    timeout = 3
+    background = "#0f0f19b3"
+    foreground = "#a6adc8"
+    frame_color = "#00000000"
+
+[urgency_normal]
+    timeout = 5
+    background = "#0f0f19b3"
+    foreground = "#cdd6f4"
+    frame_color = "#00000000"
+
+[urgency_critical]
+    timeout = 0
+    background = "#0f0f19cc"
+    foreground = "#f38ba8"
+    frame_color = "#00000000"
